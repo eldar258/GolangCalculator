@@ -64,7 +64,7 @@ func parseInt(str string) int {
 		log.Fatalf("'%s' - it's not a number!", str)
 	}
 	if value < 1 || value > 10 {
-		log.Fatalf("'%s' - input MUST be numbers from 1 to 10 inclusive!\", str")
+		log.Fatalf("'%s' - input MUST be numbers from 1 to 10 inclusive!", str)
 	}
 
 	return value
